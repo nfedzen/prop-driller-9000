@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Transformer() {
+class Transformer extends Container {
 
-  return (
-    <img
-      className = 'transformer'
-      src = {}
-      alt = {}
-    />
-  );
+    generateTransformers = () => {
+      return
+    }
+
+  render(){
+    return (
+        <img
+          className = 'transformer'
+          src = {}
+          alt = {}
+        />
+    );
+  }
 }
 
 export default Transformer;

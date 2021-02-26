@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { render } from 'react-dom'
 
-function Header() {
 
+class Header extends Component{
+  render() {
   return (
     <header>
       <img
-        src = ""
+        src = {this.props.src}
         alt = "logo"
       />
     </header>
   );
+}
 }
 
 export default Header;

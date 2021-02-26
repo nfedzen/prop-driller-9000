@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 
 import Header from './Components/Header';
+import TransformerContainer from './Containers/TransformersSection'
 
 export default class App extends React.Component {
   state = {
@@ -28,7 +29,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header src="https://i.pinimg.com/originals/f8/7d/ec/f87dec9d6334af383a27f73e48ccf154.png" />
       </div>
     );
   }
